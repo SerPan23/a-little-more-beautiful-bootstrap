@@ -51,6 +51,7 @@
 }
 .navbar-toggler.active .anim-1 .icon-bar:nth-of-type(2) {
     background: transparent;
+    transition-duration: .0s;
 }
 .navbar-toggler.active .anim-1 .icon-bar:nth-of-type(3) {
     top: -3px;
