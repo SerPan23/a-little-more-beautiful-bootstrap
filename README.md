@@ -3,7 +3,7 @@
 
 ### Usage:
  1) Download bootstrap 4, jquery.js, popper.js or use cdn links
- 2) Download repository
+ 2) Download repository and add in your project
  3) Link almbb.css in head
  4) Add almbb.js in head after bootstrap 4, jquery.js, popper.js or before body end
 
