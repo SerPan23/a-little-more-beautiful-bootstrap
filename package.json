@@ -1,0 +1,29 @@
+{
+  "name": "a-little-more-beautiful-bootstrap",
+  "version": "1.0.0",
+  "description": "In this repositiry you can find more beautiful elements",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SerPan23/a-little-more-beautiful-bootstrap.git"
+  },
+  "author": "serp23",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SerPan23/a-little-more-beautiful-bootstrap/issues"
+  },
+  "homepage": "https://github.com/SerPan23/a-little-more-beautiful-bootstrap#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  },
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

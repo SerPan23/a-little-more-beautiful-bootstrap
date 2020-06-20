@@ -1,0 +1,19 @@
+.carousel_overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.418);
+}
+
+.carousel{ 
+    .carousel-indicators{ 
+        li {
+            width: .625rem;
+            height: .625rem;
+            cursor: pointer;
+            border-radius: 50%;
+        }
+    }
+}
