@@ -26,7 +26,7 @@
     position: relative;
     margin: 0px;
     @include transform(0deg);
-    @include transition(.5s);
+    @include transition(.250ms);
     cursor: pointer;
 }
 
