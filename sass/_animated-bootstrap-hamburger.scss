@@ -1,3 +1,18 @@
+@mixin transform($deg) {
+    -webkit-transform: rotate($deg);
+    -moz-transform: rotate($deg);
+    -o-transform: rotate($deg);
+    transform: rotate($deg);
+}
+
+@mixin transition($sec) {
+    -webkit-transition: $sec ease-in-out;
+    -moz-transition: $sec ease-in-out;
+    -o-transition: $sec ease-in-out;
+    transition: $sec ease-in-out;
+}
+
+
 .navbar {
     .navbar-toggler {
         border-width: 0;
@@ -10,14 +25,8 @@
     height: 20px;
     position: relative;
     margin: 0px;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
+    @include transform(0deg);
+    @include transition(.5s);
     cursor: pointer;
 }
 

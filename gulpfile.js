@@ -7,8 +7,8 @@ function style() {
     // (If you want to use scss files, simply look for *.scss files instead)
     return (
         gulp
-            //.src(["./sass/**/*.scss", "./sass/**/*.sass"])
-            .src('./sass/almbb.scss')
+            .src(["./sass/**/*.scss", "./sass/**/*.sass"])
+            //.src('./sass/almbb.scss')
             // Use sass with the files found, and log any errors
             .pipe(sass())
             .on("error", sass.logError)

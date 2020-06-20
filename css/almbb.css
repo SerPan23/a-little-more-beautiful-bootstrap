@@ -11,10 +11,10 @@
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
   transform: rotate(0deg);
-  -webkit-transition: .5s ease-in-out;
-  -moz-transition: .5s ease-in-out;
-  -o-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   cursor: pointer; }
 
 .anim-bar span {
@@ -85,10 +85,24 @@
   font-size: .81rem;
   text-transform: uppercase; }
   .btn-rounded {
+    outline: 0;
     border-radius: 5em !important;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); }
     .btn-rounded:hover {
+      outline: 0;
       box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4); }
+    .btn-check:focus + .btn-rounded, .btn-rounded:focus {
+      outline: 0;
+      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4) !important;
+      filter: opacity(85%); }
+    .btn-check:checked + .btn-rounded,
+    .btn-check:active + .btn-rounded, .btn-rounded:active, .btn-rounded.active {
+      outline: 0;
+      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4) !important; }
+      .btn-check:checked + .btn-rounded:focus,
+      .btn-check:active + .btn-rounded:focus, .btn-rounded:active:focus, .btn-rounded.active:focus {
+        outline: 0;
+        box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4) !important; }
 
 .gradient-blue, .gradient-peach, .gradient-aqua {
   border-width: 0;
