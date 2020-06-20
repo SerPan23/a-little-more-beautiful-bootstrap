@@ -7,5 +7,4 @@
  3) Link almbb.css in head
  4) Add almbb.js in head after bootstrap 4, jquery.js, popper.js or before body end
 
-Read the wiki to learn how to use the library:
-<https://github.com/SerPan23/a-little-more-beautiful-bootstrap/wiki>
+## Read the wiki to learn how to use the library: <https://github.com/SerPan23/a-little-more-beautiful-bootstrap/wiki>
