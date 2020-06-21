@@ -344,6 +344,9 @@ body {
       filter: opacity(85%);
       box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4) !important; }
 
+.content-wrapper {
+  min-height: 100vh; }
+
 .footer {
   position: absolute;
   bottom: 0;
