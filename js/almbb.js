@@ -8,5 +8,12 @@ $(document).ready(function () {
     $(".navbar-toggler").on("click", function () {
         $(this).toggleClass("active");
     });
-    //-------
+    //---------------------
+
+    //sidenav
+    $('.nav-link-collapse').on('click', function () {
+        $('.nav-link-collapse').not(this).removeClass('nav-link-show');
+        $(this).toggleClass('nav-link-show');
+    });
+    //---------------------
 });

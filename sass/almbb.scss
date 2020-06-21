@@ -1,4 +1,13 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+}
+
 @import "animated-bootstrap-hamburger";
 @import "modify-carousel";
 @import "buttons";
+@import "sidenav";
 @import "mixins";
