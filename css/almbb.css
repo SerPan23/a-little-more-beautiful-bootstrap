@@ -80,40 +80,48 @@
   cursor: pointer;
   border-radius: 50%; }
 
-.btn-rounded, .btn-rounded-blue, .btn-rounded-indigo, .btn-rounded-light-yellow, .btn-rounded-red-orange, .btn-rounded-light-blue, .btn-rounded-light-green {
+.btn-rounded-blue, .btn-rounded-indigo, .btn-rounded-light-yellow, .btn-rounded-red-orange, .btn-rounded-light-blue, .btn-rounded-light-green, .btn-rounded-gradient-blue, .btn-rounded-gradient-peach, .btn-rounded-gradient-aqua {
   outline: 0;
   border-radius: 5em !important;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
   color: white; }
-  .btn-rounded:hover, .btn-rounded-blue:hover, .btn-rounded-indigo:hover, .btn-rounded-light-yellow:hover, .btn-rounded-red-orange:hover, .btn-rounded-light-blue:hover, .btn-rounded-light-green:hover {
+  .btn-rounded-blue:hover, .btn-rounded-indigo:hover, .btn-rounded-light-yellow:hover, .btn-rounded-red-orange:hover, .btn-rounded-light-blue:hover, .btn-rounded-light-green:hover, .btn-rounded-gradient-blue:hover, .btn-rounded-gradient-peach:hover, .btn-rounded-gradient-aqua:hover {
     outline: 0;
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4);
     color: white; }
-  .btn-check:focus + .btn-rounded, .btn-check:focus + .btn-rounded-blue, .btn-check:focus + .btn-rounded-indigo, .btn-check:focus + .btn-rounded-light-yellow, .btn-check:focus + .btn-rounded-red-orange, .btn-check:focus + .btn-rounded-light-blue, .btn-check:focus + .btn-rounded-light-green, .btn-rounded:focus, .btn-rounded-blue:focus, .btn-rounded-indigo:focus, .btn-rounded-light-yellow:focus, .btn-rounded-red-orange:focus, .btn-rounded-light-blue:focus, .btn-rounded-light-green:focus {
+  .btn-check:focus + .btn-rounded-blue, .btn-check:focus + .btn-rounded-indigo, .btn-check:focus + .btn-rounded-light-yellow, .btn-check:focus + .btn-rounded-red-orange, .btn-check:focus + .btn-rounded-light-blue, .btn-check:focus + .btn-rounded-light-green, .btn-check:focus + .btn-rounded-gradient-blue, .btn-check:focus + .btn-rounded-gradient-peach, .btn-check:focus + .btn-rounded-gradient-aqua, .btn-rounded-blue:focus, .btn-rounded-indigo:focus, .btn-rounded-light-yellow:focus, .btn-rounded-red-orange:focus, .btn-rounded-light-blue:focus, .btn-rounded-light-green:focus, .btn-rounded-gradient-blue:focus, .btn-rounded-gradient-peach:focus, .btn-rounded-gradient-aqua:focus {
     outline: 0;
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4) !important;
     filter: opacity(85%);
     color: white; }
-  .btn-check:checked + .btn-rounded, .btn-check:checked + .btn-rounded-blue, .btn-check:checked + .btn-rounded-indigo, .btn-check:checked + .btn-rounded-light-yellow, .btn-check:checked + .btn-rounded-red-orange, .btn-check:checked + .btn-rounded-light-blue, .btn-check:checked + .btn-rounded-light-green,
-  .btn-check:active + .btn-rounded,
+  .btn-check:checked + .btn-rounded-blue, .btn-check:checked + .btn-rounded-indigo, .btn-check:checked + .btn-rounded-light-yellow, .btn-check:checked + .btn-rounded-red-orange, .btn-check:checked + .btn-rounded-light-blue, .btn-check:checked + .btn-rounded-light-green, .btn-check:checked + .btn-rounded-gradient-blue, .btn-check:checked + .btn-rounded-gradient-peach, .btn-check:checked + .btn-rounded-gradient-aqua,
   .btn-check:active + .btn-rounded-blue,
   .btn-check:active + .btn-rounded-indigo,
   .btn-check:active + .btn-rounded-light-yellow,
   .btn-check:active + .btn-rounded-red-orange,
   .btn-check:active + .btn-rounded-light-blue,
-  .btn-check:active + .btn-rounded-light-green, .btn-rounded:active, .btn-rounded-blue:active, .btn-rounded-indigo:active, .btn-rounded-light-yellow:active, .btn-rounded-red-orange:active, .btn-rounded-light-blue:active, .btn-rounded-light-green:active, .active.btn-rounded, .active.btn-rounded-blue, .active.btn-rounded-indigo, .active.btn-rounded-light-yellow, .active.btn-rounded-red-orange, .active.btn-rounded-light-blue, .active.btn-rounded-light-green {
+  .btn-check:active + .btn-rounded-light-green,
+  .btn-check:active + .btn-rounded-gradient-blue,
+  .btn-check:active + .btn-rounded-gradient-peach,
+  .btn-check:active + .btn-rounded-gradient-aqua, .btn-rounded-blue:active, .btn-rounded-indigo:active, .btn-rounded-light-yellow:active, .btn-rounded-red-orange:active, .btn-rounded-light-blue:active, .btn-rounded-light-green:active, .btn-rounded-gradient-blue:active, .btn-rounded-gradient-peach:active, .btn-rounded-gradient-aqua:active, .active.btn-rounded-blue, .active.btn-rounded-indigo, .active.btn-rounded-light-yellow, .active.btn-rounded-red-orange, .active.btn-rounded-light-blue, .active.btn-rounded-light-green, .active.btn-rounded-gradient-blue, .active.btn-rounded-gradient-peach, .active.btn-rounded-gradient-aqua {
     outline: 0;
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4) !important; }
-    .btn-check:checked + .btn-rounded:focus, .btn-check:checked + .btn-rounded-blue:focus, .btn-check:checked + .btn-rounded-indigo:focus, .btn-check:checked + .btn-rounded-light-yellow:focus, .btn-check:checked + .btn-rounded-red-orange:focus, .btn-check:checked + .btn-rounded-light-blue:focus, .btn-check:checked + .btn-rounded-light-green:focus,
-    .btn-check:active + .btn-rounded:focus,
+    .btn-check:checked + .btn-rounded-blue:focus, .btn-check:checked + .btn-rounded-indigo:focus, .btn-check:checked + .btn-rounded-light-yellow:focus, .btn-check:checked + .btn-rounded-red-orange:focus, .btn-check:checked + .btn-rounded-light-blue:focus, .btn-check:checked + .btn-rounded-light-green:focus, .btn-check:checked + .btn-rounded-gradient-blue:focus, .btn-check:checked + .btn-rounded-gradient-peach:focus, .btn-check:checked + .btn-rounded-gradient-aqua:focus,
     .btn-check:active + .btn-rounded-blue:focus,
     .btn-check:active + .btn-rounded-indigo:focus,
     .btn-check:active + .btn-rounded-light-yellow:focus,
     .btn-check:active + .btn-rounded-red-orange:focus,
     .btn-check:active + .btn-rounded-light-blue:focus,
-    .btn-check:active + .btn-rounded-light-green:focus, .btn-rounded:active:focus, .btn-rounded-blue:active:focus, .btn-rounded-indigo:active:focus, .btn-rounded-light-yellow:active:focus, .btn-rounded-red-orange:active:focus, .btn-rounded-light-blue:active:focus, .btn-rounded-light-green:active:focus, .active.btn-rounded:focus, .active.btn-rounded-blue:focus, .active.btn-rounded-indigo:focus, .active.btn-rounded-light-yellow:focus, .active.btn-rounded-red-orange:focus, .active.btn-rounded-light-blue:focus, .active.btn-rounded-light-green:focus {
+    .btn-check:active + .btn-rounded-light-green:focus,
+    .btn-check:active + .btn-rounded-gradient-blue:focus,
+    .btn-check:active + .btn-rounded-gradient-peach:focus,
+    .btn-check:active + .btn-rounded-gradient-aqua:focus, .btn-rounded-blue:active:focus, .btn-rounded-indigo:active:focus, .btn-rounded-light-yellow:active:focus, .btn-rounded-red-orange:active:focus, .btn-rounded-light-blue:active:focus, .btn-rounded-light-green:active:focus, .btn-rounded-gradient-blue:active:focus, .btn-rounded-gradient-peach:active:focus, .btn-rounded-gradient-aqua:active:focus, .active.btn-rounded-blue:focus, .active.btn-rounded-indigo:focus, .active.btn-rounded-light-yellow:focus, .active.btn-rounded-red-orange:focus, .active.btn-rounded-light-blue:focus, .active.btn-rounded-light-green:focus, .active.btn-rounded-gradient-blue:focus, .active.btn-rounded-gradient-peach:focus, .active.btn-rounded-gradient-aqua:focus {
       outline: 0;
       box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4) !important; }
+
+.btn-rounded-gradient-blue, .btn-rounded-gradient-peach, .btn-rounded-gradient-aqua, .btn-gradient-blue, .btn-gradient-peach, .btn-gradient-aqua {
+  border-width: 0;
+  outline: 0; }
 
 .btn {
   padding: .84rem 2.14rem;
@@ -131,6 +139,54 @@
     background: #45cafc; }
   .btn-rounded-light-green {
     background: #05ffa3; }
+  .btn-rounded-gradient-blue {
+    background: linear-gradient(40deg, #45cafc, #303f9f);
+    color: white;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out; }
+    .btn-rounded-gradient-blue:hover {
+      color: white;
+      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4) !important; }
+    .btn-rounded-gradient-blue:active, .btn-rounded-gradient-blue.active {
+      filter: opacity(85%);
+      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4) !important; }
+    .btn-rounded-gradient-blue:focus {
+      filter: opacity(85%);
+      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4) !important; }
+  .btn-rounded-gradient-peach {
+    background: linear-gradient(40deg, #ffd86f, #fc6262);
+    color: white;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out; }
+    .btn-rounded-gradient-peach:hover {
+      color: white;
+      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4) !important; }
+    .btn-rounded-gradient-peach:active, .btn-rounded-gradient-peach.active {
+      filter: opacity(85%);
+      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4) !important; }
+    .btn-rounded-gradient-peach:focus {
+      filter: opacity(85%);
+      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4) !important; }
+  .btn-rounded-gradient-aqua {
+    background: linear-gradient(40deg, #2096ff, #05ffa3);
+    color: white;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out; }
+    .btn-rounded-gradient-aqua:hover {
+      color: white;
+      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4) !important; }
+    .btn-rounded-gradient-aqua:active, .btn-rounded-gradient-aqua.active {
+      filter: opacity(85%);
+      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4) !important; }
+    .btn-rounded-gradient-aqua:focus {
+      filter: opacity(85%);
+      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4) !important; }
   .btn-blue {
     background: #2096ff;
     color: white;
@@ -233,16 +289,51 @@
     .btn-light-green:focus {
       box-shadow: 0 0 0 5px rgba(5, 255, 163, 0.5);
       background: #009e64; }
-
-.gradient-blue, .gradient-peach, .gradient-aqua {
-  border-width: 0;
-  outline: 0; }
-
-.gradient-blue {
-  background: linear-gradient(40deg, #45cafc, #303f9f) !important; }
-
-.gradient-peach {
-  background: linear-gradient(40deg, #ffd86f, #fc6262) !important; }
-
-.gradient-aqua {
-  background: linear-gradient(40deg, #2096ff, #05ffa3) !important; }
+  .btn-gradient-blue {
+    background: linear-gradient(40deg, #45cafc, #303f9f);
+    color: white;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out; }
+    .btn-gradient-blue:hover {
+      color: white;
+      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4) !important; }
+    .btn-gradient-blue:active, .btn-gradient-blue.active {
+      filter: opacity(85%);
+      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4) !important; }
+    .btn-gradient-blue:focus {
+      filter: opacity(85%);
+      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4) !important; }
+  .btn-gradient-peach {
+    background: linear-gradient(40deg, #ffd86f, #fc6262);
+    color: white;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out; }
+    .btn-gradient-peach:hover {
+      color: white;
+      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4) !important; }
+    .btn-gradient-peach:active, .btn-gradient-peach.active {
+      filter: opacity(85%);
+      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4) !important; }
+    .btn-gradient-peach:focus {
+      filter: opacity(85%);
+      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4) !important; }
+  .btn-gradient-aqua {
+    background: linear-gradient(40deg, #2096ff, #05ffa3);
+    color: white;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out; }
+    .btn-gradient-aqua:hover {
+      color: white;
+      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4) !important; }
+    .btn-gradient-aqua:active, .btn-gradient-aqua.active {
+      filter: opacity(85%);
+      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4) !important; }
+    .btn-gradient-aqua:focus {
+      filter: opacity(85%);
+      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4) !important; }

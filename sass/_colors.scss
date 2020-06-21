@@ -11,3 +11,7 @@ $colors: (blue: $blue,
     red-orange: $red-orange,
     light-blue: $light-blue,
     light-green: $light-green);
+
+$gradients: (blue: linear-gradient(40deg, #{$light-blue}, #{$indigo}),
+    peach: linear-gradient(40deg, #{$light-yellow}, #{$red-orange}), 
+    aqua: linear-gradient(40deg, #{$blue}, #{$light-green}));
