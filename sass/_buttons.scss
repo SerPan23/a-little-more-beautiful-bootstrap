@@ -41,22 +41,42 @@
     outline: 0
 }
 
-// .gradient-blue {
-//     @extend %gradient;
-//     background: linear-gradient(40deg, #{$light-blue}, #{$indigo}) !important;
+%btn-scrollup {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    color: #fff;
+    bottom: 30px;
+    padding: 7px 10px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.2);
 
-// }
+    &:hover {
+        box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.4);
+        filter: opacity(90%);
+    }
 
-// .gradient-peach {
-//     @extend %gradient;
-//     background: linear-gradient(40deg, #{$light-yellow}, #{$red-orange}) !important;
-// }
+    &:focus {
+        box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.4);
+        //делать что-то когда нажата
+        filter: opacity(85%);
+        color: white;
+    }
 
-// .gradient-aqua {
-//     @extend %gradient;
-//     background: linear-gradient(40deg, #{$blue}, #{$light-green}) !important;
-// }
+    @media (max-width: 992px) {
+        & {
+            right: 15px;
+        }
+    }
 
+    @media (min-width: 993px) {
+        & {
+            right: 160px;
+        }
+    }
+}
 
 .btn {
     padding: .84rem 2.14rem;
@@ -64,6 +84,7 @@
     text-transform: uppercase;
 
     &-rounded {
+
         @each $namec,
         $color in $colors {
             &-#{$namec} {
@@ -164,4 +185,27 @@
             }
         }
     }
+}
+
+
+.btn-scrollup {
+    @extend %btn-scrollup;
+
+    @each $namec,
+    $color in $colors {
+        &-#{$namec} {
+            @extend %btn-scrollup;
+            background: $color;
+        }
+    }
+
+    @each $namec,
+    $color in $gradients {
+        &-gradient-#{$namec} {
+            @extend %gradient;
+            @extend %btn-scrollup;
+            background: $color;
+        }
+    }
+
 }
