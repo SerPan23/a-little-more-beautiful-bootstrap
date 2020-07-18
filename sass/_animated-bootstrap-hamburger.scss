@@ -20,7 +20,7 @@
     }
 }
 
-.anim-bar {
+%anim-bar {
     width: 30px;
     height: 20px;
     position: relative;
@@ -30,16 +30,31 @@
     cursor: pointer;
 }
 
-.anim-bar {
+%aspan {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+}
+
+.anim-bar-light {
+    @extend %anim-bar;
+
     span {
-        display: block;
-        position: absolute;
-        height: 3px;
-        width: 100%;
-        border-radius: 9px;
-        opacity: 1;
-        left: 0;
+        @extend %aspan;
         background: white;
+    }
+}
+
+.anim-bar-dark {
+    @extend %anim-bar;
+
+    span {
+        @extend %aspan;
+        background: black;
     }
 }
 
