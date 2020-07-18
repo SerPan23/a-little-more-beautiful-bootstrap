@@ -36,7 +36,7 @@
     }
 }
 
-%gradient {
+%almbbButton {
     border-width: 0;
     outline: 0
 }
@@ -99,7 +99,7 @@
             $color in $gradients {
                 &-#{$namec} {
                     @extend %rounded;
-                    @extend %gradient;
+                    @extend %almbbButton;
                     background: $color;
                     color: white;
                     @include transition(.2s);
@@ -130,26 +130,45 @@
     @each $namec,
     $color in $colors {
         &-#{$namec} {
+            @extend %almbbButton;
             background: $color;
             color: white;
-            outline-color: $color;
+            // outline-color: $color;
             @include transition(.2s);
 
+            // &:hover {
+            //     //filter: brightness(.8);
+            //     color: white;
+            //     background: darken($color, 20%);
+            // }
+
+            // &:active,
+            // &.active {
+            //     box-shadow: 0 0 5px $color;
+            //     background: darken($color, 20%);
+            // }
+
+            // &:focus {
+            //     box-shadow: 0 0 0 5px rgba($color, .5);
+            //     background: darken($color, 20%);
+            // }
             &:hover {
                 //filter: brightness(.8);
                 color: white;
-                background: darken($color, 20%);
+                box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4) !important;
             }
 
             &:active,
             &.active {
-                box-shadow: 0 0 5px $color;
-                background: darken($color, 20%);
+                //box-shadow: 0 0 5px map-get($colors, $namec);
+                filter: opacity(85%);
+                box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4) !important;
             }
 
             &:focus {
-                box-shadow: 0 0 0 5px rgba($color, .5);
-                background: darken($color, 20%);
+                //box-shadow: 0 0 0 5px rgba(map-get($colors, $namec), .5);
+                filter: opacity(85%);
+                box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4) !important;
             }
         }
     }
@@ -159,7 +178,7 @@
         @each $namec,
         $color in $gradients {
             &-#{$namec} {
-                @extend %gradient;
+                @extend %almbbButton;
                 background: $color;
                 color: white;
                 @include transition(.2s);
@@ -202,7 +221,7 @@
     @each $namec,
     $color in $gradients {
         &-gradient-#{$namec} {
-            @extend %gradient;
+            @extend %almbbButton;
             @extend %btn-scrollup;
             background: $color;
         }
