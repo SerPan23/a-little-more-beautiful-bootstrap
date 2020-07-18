@@ -4,14 +4,48 @@ $light-yellow: #ffd86f;
 $red-orange: #fc6262;
 $light-blue: #45cafc;
 $light-green: #05ffa3;
+$almbb-success: #00C851;
+$success-dark: #007E33;
+$almbb-danger: #ff4444;
+$danger-dark: #CC0000;
+$almbb-warning: #ffbb33;
+$warning-dark: #FF8800;
+$almbb-info: #33b5e5;
+$info-dark: #0099CC;
+$elegant: #2E2E2E;
+$elegant-dark: #212121;
+$stylish: #4B515D;
+$stylish-dark: #3E4551;
+$unique: #3F729B;
+$unique-dark: #1C2331;
+$special: #37474F;
+$special-dark: #263238;
 
 $colors: (blue: $blue,
     indigo: $indigo,
     light-yellow: $light-yellow,
     red-orange: $red-orange,
     light-blue: $light-blue,
-    light-green: $light-green);
+    light-green: $light-green,
+    almbb-success: $almbb-success,
+    success-dark: $success-dark,
+    almbb-danger: $almbb-danger,
+    danger-dark: $danger-dark,
+    almbb-warning: $almbb-warning,
+    warning-dark: $warning-dark,
+    almbb-info: $almbb-info,
+    info-dark: $info-dark,
+    elegant: $elegant,
+    elegant-dark: $elegant-dark,
+    stylish: $stylish,
+    stylish-dark: $stylish-dark,
+    unique: $unique,
+    unique-dark: $unique-dark,
+    special: $elegant,
+    special-dark: $special-dark,
+);
 
 $gradients: (blue: linear-gradient(40deg, #{$light-blue}, #{$indigo}),
-    peach: linear-gradient(40deg, #{$light-yellow}, #{$red-orange}), 
-    aqua: linear-gradient(40deg, #{$blue}, #{$light-green}));
+    peach: linear-gradient(40deg, #{$light-yellow}, #{$red-orange}),
+    aqua: linear-gradient(40deg, #{$blue}, #{$light-green}),
+);
