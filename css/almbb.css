@@ -2448,7 +2448,7 @@
   -ms-flex-align: end;
   align-items: flex-end;
   position: fixed;
-  bottom: 15px;
+  bottom: 2em;
   left: 50%;
   width: 900px;
   max-width: 90%;
@@ -2458,8 +2458,8 @@
   padding: 25px;
   background-color: #fff;
   border-radius: 4px;
-  -webkit-box-shadow: 0 5px 10px 2px rgba(34,60,80,.2);
-  box-shadow: 0 5px 10px 2px rgba(34,60,80,.2)
+  -webkit-box-shadow: 0 5px 10px 3px rgba(34,60,80,.2);
+  box-shadow: 0 5px 10px 3px rgba(34,60,80,.2)
 }
 #cookie_notification p {
   margin: 0;
