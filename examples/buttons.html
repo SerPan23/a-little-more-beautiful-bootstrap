@@ -20,7 +20,6 @@
 
     <link rel="stylesheet" href="../css/almbb.css">
     <script src="../js/almbb.js"></script>
-    <script src="../js/waves.js"></script>
     <title>Document</title>
 </head>
 
@@ -71,28 +70,6 @@
         </div> <br>
     </div>
     <div class="btn-scrollup-blue scrollup"><i class="fa fa-chevron-up"></i></div>
-    <div id="cookie_notification">
-        <p>Для улучшения работы сайта и его взаимодействия с пользователями мы используем файлы cookie. Продолжая работу с
-            сайтом, Вы разрешаете использование cookie-файлов. Вы всегда можете отключить файлы cookie в настройках Вашего
-            браузера.</p>
-        <button class="btn btn-rounded-outline-almbb-success cookie_accept">Принять</button>
-    </div>
-    <script>
-        function checkCookies() {
-                let cookieDate = localStorage.getItem('cookieDate');
-                let cookieNotification = document.getElementById('cookie_notification');
-                let cookieBtn = cookieNotification.querySelector('.cookie_accept');
-
-                cookieNotification.classList.add('show');
-
-                // При клике на кнопку, в локальное хранилище записывается текущая дата в системе UNIX
-                cookieBtn.addEventListener('click', function () {
-                    localStorage.setItem('cookieDate', Date.now());
-                    cookieNotification.classList.remove('show');
-                })
-            }
-            checkCookies();
-    </script>
 </body>
 
 </html>
