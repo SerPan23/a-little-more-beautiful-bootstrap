@@ -42,6 +42,9 @@
     outline: 0;
     border-width: 0px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    padding: .84rem 2.14rem;
+    font-size: .81rem;
+    text-transform: uppercase;
 }
 
 %btn-scrollup {
@@ -83,16 +86,13 @@
 }
 
 .btn {
-    padding: .84rem 2.14rem;
-    font-size: .81rem;
-    text-transform: uppercase;
-
     &-rounded {
 
         @each $namec,
         $color in $colors {
             &-#{$namec} {
                 @extend %rounded;
+                @extend %almbbButton;
                 background: $color;
             }
         }
@@ -101,6 +101,7 @@
         $color in $colors {
             &-outline-#{$namec} {
                 @extend %rounded;
+                @extend %almbbButton;
                 color: $color !important;
                 background-color: transparent !important;
                 border: 2px solid $color !important;
