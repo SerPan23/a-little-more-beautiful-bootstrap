@@ -20,6 +20,7 @@ $unique: #3F729B;
 $unique-dark: #1C2331;
 $special: #37474F;
 $special-dark: #263238;
+$almbb-light: #f8f9fa;
 
 $colors: (blue: $blue,
     indigo: $indigo,
@@ -43,6 +44,7 @@ $colors: (blue: $blue,
     unique-dark: $unique-dark,
     special: $elegant,
     special-dark: $special-dark,
+    almbb-light: $almbb-light,
 );
 
 $gradients: (blue: linear-gradient(40deg, #{$light-blue}, #{$indigo}),
