@@ -856,7 +856,7 @@
   padding: 7px 10px;
   cursor: pointer;
   text-align: center;
-  font-size: 1em;
+  font-size: 1em!important;
   -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.2);
   box-shadow: 0 5px 11px 0 rgba(0,0,0,.2)
 }
@@ -955,6 +955,35 @@
   .btn-scrollup-warning-dark {
     right: 15px
   }
+  .btn-scrollup-almbb-danger:after,
+  .btn-scrollup-almbb-info:after,
+  .btn-scrollup-almbb-light:after,
+  .btn-scrollup-almbb-success:after,
+  .btn-scrollup-almbb-warning:after,
+  .btn-scrollup-blue:after,
+  .btn-scrollup-danger-dark:after,
+  .btn-scrollup-elegant-dark:after,
+  .btn-scrollup-elegant:after,
+  .btn-scrollup-gradient-aqua:after,
+  .btn-scrollup-gradient-blue:after,
+  .btn-scrollup-gradient-peach:after,
+  .btn-scrollup-indigo:after,
+  .btn-scrollup-info-dark:after,
+  .btn-scrollup-light-blue:after,
+  .btn-scrollup-light-green:after,
+  .btn-scrollup-light-yellow:after,
+  .btn-scrollup-red-orange:after,
+  .btn-scrollup-special-dark:after,
+  .btn-scrollup-special:after,
+  .btn-scrollup-stylish-dark:after,
+  .btn-scrollup-stylish:after,
+  .btn-scrollup-success-dark:after,
+  .btn-scrollup-unique-dark:after,
+  .btn-scrollup-unique:after,
+  .btn-scrollup-warning-dark:after,
+  .btn-scrollup:after {
+    font-size: 1.5em
+  }
 }
 @media (min-width:993px) {
   .btn-scrollup,
@@ -986,6 +1015,36 @@
   .btn-scrollup-warning-dark {
     right: 160px
   }
+}
+.btn-scrollup-almbb-danger:after,
+.btn-scrollup-almbb-info:after,
+.btn-scrollup-almbb-light:after,
+.btn-scrollup-almbb-success:after,
+.btn-scrollup-almbb-warning:after,
+.btn-scrollup-blue:after,
+.btn-scrollup-danger-dark:after,
+.btn-scrollup-elegant-dark:after,
+.btn-scrollup-elegant:after,
+.btn-scrollup-gradient-aqua:after,
+.btn-scrollup-gradient-blue:after,
+.btn-scrollup-gradient-peach:after,
+.btn-scrollup-indigo:after,
+.btn-scrollup-info-dark:after,
+.btn-scrollup-light-blue:after,
+.btn-scrollup-light-green:after,
+.btn-scrollup-light-yellow:after,
+.btn-scrollup-red-orange:after,
+.btn-scrollup-special-dark:after,
+.btn-scrollup-special:after,
+.btn-scrollup-stylish-dark:after,
+.btn-scrollup-stylish:after,
+.btn-scrollup-success-dark:after,
+.btn-scrollup-unique-dark:after,
+.btn-scrollup-unique:after,
+.btn-scrollup-warning-dark:after,
+.btn-scrollup:after {
+  content: "\f077";
+  font-family: fontawesome!important
 }
 .btn-almbb-small {
   padding: .375rem .75rem;
@@ -2723,4 +2782,25 @@
 }
 .waves-effect .waves-ripple {
   z-index: -1
+}
+.nav-pills.almbb-pills .nav-item {
+  padding: 10px
+}
+.nav-pills.almbb-pills .nav-link {
+  border-width: 0;
+  outline: 0;
+  padding: .84rem 2.14rem;
+  font-size: .81rem;
+  text-transform: uppercase;
+  cursor: pointer
+}
+.nav-pills.almbb-pills .nav-link.active {
+  background-color: #2096ff;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.2)
+}
+.nav-pills.almbb-pills .nav-link:not(.active):hover {
+  background-color: #f8f9fa;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.2)
 }

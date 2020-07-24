@@ -1,0 +1,33 @@
+.nav-pills.almbb-pills {
+
+    .nav-item {
+        padding: 10px;
+    }
+
+    .nav-link {
+        border-width: 0;
+        outline: 0;
+        padding: .84rem 2.14rem;
+        font-size: .81rem;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    .nav-link.active {
+        background-color: $blue;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .nav-link:not(.active):hover {
+        background-color: #f8f9fa;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    // @each $namec,
+    // $color in $colors {
+    //     .nav-link.active.#{$namec} {
+    //         background-color: $color;
+    //         box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    //     }
+    // }
+}

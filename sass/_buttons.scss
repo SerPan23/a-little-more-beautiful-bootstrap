@@ -57,7 +57,8 @@
     padding: 7px 10px;
     cursor: pointer;
     text-align: center;
-    font-size: 1em;
+    font-size: 1em !important;
+    // font-size: 19.25px 23.2px;
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.2);
 
     &:hover {
@@ -76,12 +77,21 @@
         & {
             right: 15px;
         }
+
+        &:after {
+            font-size: 1.5em;
+        }
     }
 
     @media (min-width: 993px) {
         & {
             right: 160px;
         }
+    }
+
+    &:after {
+        content: "\f077";
+        font-family: fontawesome !important;
     }
 }
 
