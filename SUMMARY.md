@@ -7,4 +7,5 @@
 ## Buttons
 
 * [Colors](buttons/colors.md)
+* [Simple buttons](buttons/simple-buttons.md)
 
