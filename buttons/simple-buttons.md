@@ -1,8 +1,10 @@
-# Simple buttons
+# Buttons
 
-## You need only use btn-\* 
+## Simple buttons
 
-### Instead \* use color from colors
+### You need use class "btn-\*" for tag button or a  \(instead \* use color from colors\)
 
+## Rounded buttons
 
+### You need use class "btn-rounded-\*" for tag button or a \(instead \* use color from colors\)
 
