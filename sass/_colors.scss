@@ -21,6 +21,7 @@ $unique-dark: #1C2331;
 $special: #37474F;
 $special-dark: #263238;
 $almbb-light: #f8f9fa;
+$profevents-red: #c60000;
 
 $colors: (blue: $blue,
     indigo: $indigo,
@@ -45,6 +46,7 @@ $colors: (blue: $blue,
     special: $elegant,
     special-dark: $special-dark,
     almbb-light: $almbb-light,
+    profevents-red: $profevents-red,
 );
 
 $gradients: (blue: linear-gradient(40deg, #{$light-blue}, #{$indigo}),
